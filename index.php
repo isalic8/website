@@ -3,14 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="pix/favicon.ico"/>
-	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="files/pix/icon.gif"/>
+	<link rel="stylesheet" href="style.css"/>
 	<title>Unixfandom</title>
 </head>
 <body>
 	<div class="main">
 		<div class="header">
-			<p>Unixfandom.com</p>
+			<p>
+			Unixfandom.com
+			<img src="files/pix/penguin.gif" alt="penguin_gif">
+			</p>
 		</div>
 
 		<nav>
@@ -21,16 +24,26 @@
 			<div class="grid-item">
 			<h1>Title</h1>
 			<p>
-			Lorem minus optio recusandae repellendus quos. Accusantium culpa optio culpa praesentium et consectetur officia amet, enim Veritatis eius ipsam voluptatem perspiciatis laboriosam? Dolorum perferendis perspiciatis repellendus voluptates tenetur Perspiciatis autem
+			This website is running on 100% opensourced software.
+			I write guides on Linux related applications and hardware.
+			All the html and css is written by hand! There's none of that static-site-generator-nonsense.
 			</p>
+				<div id="index_gif_row">
+				<img src="files/pix/vim.gif" alt="vim_gif" id="vim_gif">
+				<a href="https://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px" src="files/pix/vcss.png" alt="Valid CSS!" />
+				</a>
+				<a href="https://validator.w3.org/check/referer">
+				<img style="border:0;width:88px;height:31px" src="files/pix/valid-xhtml10.png" alt="Valid XHTML 1.0!" />
+				</a>
+				</div>
 			</div>
 
 			<div class="grid-item">
 			<img src="files/pix/mountain.jpg" alt="">
-			<p>Lorem rerum id quis possimus quam Eum ratione perferendis nihil autem inventore Soluta corrupti quam temporibus exercitationem rerum Commodi sunt nihil magnam voluptatibus necessitatibus Nisi voluptates ipsam at quam placeat</p>
+			<p></p>
 			</div>
 		</div>
-
 		<div class="footer">
 				<?php include 'footer.php';?>
 		</div>

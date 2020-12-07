@@ -10,9 +10,16 @@ body {
 	color: #cfcee4;
 }
 
-.header {
+.header p {
 	padding: 0 0 0 10px;
 	font-size: 1.5rem;
+	width: 200px;
+}
+
+.header p img {
+	width: 20px;
+	float: right;
+
 }
 
 .main {
@@ -67,6 +74,10 @@ img {
 	width: 100%;
 }
 
+h1 img {
+	width: 20px;
+}
+
 
 nav ul {
 	padding-left: 0;
@@ -106,32 +117,25 @@ nav ul li {
 		list-style: none;
 		padding: 0px;
 	}
+
+	/*Lazy styling rules for gifs*/
+	#index_gif_row {
+		padding-top: 50px;
+	}
+
 }
 
-/*@media only screen and (min-width: 3000px) {*/
-	/*.main {*/
-		/*margin: 0 10%;*/
-	/*}*/
+/*Lazy styling rules for gifs*/
+#key_gif {
+	width: 30px;
+	padding-bottom: 5px;
+}
 
-	/*.grid-container {*/
-		/*display: grid;*/
-		/*grid-template-columns: 1fr 1fr;*/
-		/*grid-gap: 10px;*/
-	/*}*/
+#vim_gif {
+	width: 91px;
+	
+}	
 
-	/*.grid-item-border {*/
-		/*border: solid 1px #cfc5b4;*/
-	/*}*/
-
-	/*.grid-item-border h3 {*/
-	/*}*/
-
-	/*.grid-item-border li {*/
-		/*padding-left: 30%;*/
-	/*}*/
-
-	/*li {*/
-		/*list-style: none;*/
-		/*padding: 0px;*/
-	/*}*/
-/*}*/
+#index_gif_row {
+	padding: 50px 0 50px 0;
+}
