@@ -41,7 +41,7 @@
 
 			<div class="grid-item">
 			<img src="files/pix/mountain.jpg" alt="">
-			<p></p>
+			<p>This image has nothing to do with my page... thought it'd make things look more lively.</p>
 			</div>
 		</div>
 		<div class="footer">

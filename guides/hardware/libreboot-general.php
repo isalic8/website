@@ -17,7 +17,7 @@
 	<h3>General</h3>
 	<p>
 	If full disk encryption keeps failing, it's likely because your version of libreboot doesn't support luks2.
-	Boot into a live enviroment to change your luks header from version 2 to version 1.
+	Boot into a live environment to change your luks header from version 2 to version 1.
 	</p>
 
 	<pre>
@@ -29,6 +29,10 @@ https://web.archive.org/web/20200716054743/https://cryptsetup-team.pages.debian.
 	<p>
 	I learned pretty quickly that the 16pin Pomona 5252 or 8pin Pomona 5250 required to flash the thinkpad t400 IS A PAIN to find. The only Pomona 5250 I found online was selling for $200 on ebay which is absurd for a $40 clip. I think it might be better to solder wires directly to the bios chip than rely on finding the clip.
 	</p>
+
+	<h3>X60</h3>
+	The (presumably hal) sensors, which is attached to the display cable, is INCREDIBLY easy to break.
+	Like a dummy, I decided to put electrical tape over the display cable and I think this caused me to tear off a trace.
 	</div>
 </body>
 </html>

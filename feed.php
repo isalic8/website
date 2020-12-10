@@ -20,7 +20,7 @@
 			<?php include 'navigation.php';?>
 		</nav>
 
-	<h2>Feed</h2>
+	<h1>Feed <img src="files/pix/bart.gif" id="bart_gif" alt="bart_gif"></h1>
 	<div class="grid-container">
 		<div class="grid-item-border">
 		<h3>Server</h3>
