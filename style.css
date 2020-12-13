@@ -62,7 +62,7 @@ a {
 }
 
 a:hover {
-	background: red;
+	color: rgb(255,255,150);
 }
 
 li {
