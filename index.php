@@ -28,7 +28,7 @@
 			<p>
 			This website is running on 100% opensourced software.
 			I write guides on Linux related applications and hardware.
-			All the html and css is written by hand! There's none of that static-site-generator-nonsense.
+			All the html and css is written by hand! There's none of that static site generator nonsense.
 			</p>
 				<div id="index_gif_row">
 				<img src="files/pix/vim.gif" alt="vim_gif" id="vim_gif">

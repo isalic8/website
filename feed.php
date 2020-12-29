@@ -40,6 +40,9 @@
 			<li><a href="guides/server/git-server.php">Creating personal git server</a></li>
 			<li>OpenSMTPD</li>
 			<li><a href="guides/server/opensmtpd-debian.php">Compiling OpenSMTPD on Debian 10</a></li>
+			<li>OpenBSD</li>
+			<li><a href="guides/server/obsd-ssl.php">Generating ssl certificates with Let's Encrypt</a></li>
+			<li><a href="guides/server/obsd-php.php">PHP with httpd</a></li>
 		</div>
 		<div class="grid-item-border">
 		<h3>Software</h3>
