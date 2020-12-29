@@ -8,12 +8,20 @@
 	<title>Metasploit RPI</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Installing Metasploit on RPI3</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Installing Metasploit on RPI3</h1>
 	<h3>Preface</h3>
 	<p>
 	This a copy paste of a <a href="https://web.archive.org/web/20180617162418/https://github.com/MistSpark/Metasploit_ON_RaspberryPi" target="_blank">Github tutorial</a> for my own personal use.
@@ -44,6 +52,9 @@ $ bundle install
 # Add to $PATH
 $ ./msfconsole
 	</pre>
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

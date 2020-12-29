@@ -8,12 +8,20 @@
 	<title>Securing remote users</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Securing remote users</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Securing remote users</h1>
 	<h3>Preface</h3>
 	<p>Just another general guide on securing remote user accounts. Here's the rundown:</p>
 	<li>Generate SSH keys for secure authentication</li>
@@ -89,6 +97,9 @@ $ chmod -R 0750 programs .bash_profile
 	<pre>
 $ usermod -s /usr/bin/rbash user
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,12 +8,20 @@
 	<title>Nginx with PHP</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Nginx with PHP</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Nginx with PHP</h1>
 	<h3>Dependencies</h3>
 	<pre>
 $ apt install nginx php php-fpm
@@ -56,6 +64,9 @@ server {
     <span style="color: red;">}</span>
 }
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

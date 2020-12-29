@@ -7,13 +7,21 @@
 	<title>Netbsd PBP</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 <div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 <!--<small>5/25/20</small>-->
-<h2>Installing Netbsd on the Pinebook Pro</h2>
+<h1>Installing Netbsd on the Pinebook Pro</h1>
 <h3>Preface</h3>
 <p>
 I'm going to assume that you've already copied the 

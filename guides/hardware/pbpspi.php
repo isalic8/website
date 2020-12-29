@@ -7,14 +7,21 @@
 	<title>SPI flash</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
-
 	<div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 	<!--<small>5/26/20</small>-->
-	<h2>Booting from NVME with SPI Flash</h2>
+	<h1>Booting from NVME with SPI Flash</h1>
 	<h3><span style="color:#FF0000;">WARNING</span></h3>
 	<p>
 	<span style="color:#FF0000;">

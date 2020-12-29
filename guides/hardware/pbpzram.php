@@ -7,13 +7,21 @@
 	<title>Zramctl</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 <div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 <!--<small>5/23/20</small>-->
-<h2>Configuring ZRAM on the Pinebook Pro</h2>
+<h1>Configuring ZRAM on the Pinebook Pro</h1>
 
 <h3>Preface</h3>
 <p>

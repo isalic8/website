@@ -8,12 +8,20 @@
 	<title>Default Searx</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Setting searx as the default search engine</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Setting searx as the default search engine</h1>
 	<p>
 	I couldn't get this to work properly on firefox unfortunatley. 
 	<a href="https://support.mozilla.org/en-US/kb/add-or-remove-search-engine-firefox" target="_blank">It's method of adding custom search engines is horrid.</a> It seems to snag the proxy_pass url (127.0.0.1:8888) instead of our domain (search.yourdomain.com).
@@ -26,7 +34,8 @@
 	</p>
 
 	</div>
-	</p>
-
+	<div class="footer">
+			<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

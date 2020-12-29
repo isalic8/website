@@ -8,12 +8,20 @@
 	<title>Home</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Microsoft Office in Linux</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Microsoft Office in Linux</h1>
 	<h3>Preface</h3>
 	<p>
 	I'm using Microsoft Office 2010 32Bit for this tutorial.
@@ -61,6 +69,9 @@ $ wine ~/.wine/office2010/Program\ Files/Microsoft\ Office/Office14/EXEL.EXE
 	<img src="../pix/excel.png" alt="exel-image">
 	<img src="../pix/word.png" alt="word-setup-image">
 	<img src="../pix/word1.png" alt="word-image">
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

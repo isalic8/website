@@ -8,12 +8,20 @@
 	<title></title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Raspberry pi no network</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Raspberry pi no network</h1>
 	<h3>Problem</h3>
 	<p>
 	Raspeberry pi is configured with a static ip. It's able to fetch files from raspbian servers. It can't access the internet outside that.
@@ -29,6 +37,9 @@
 $ dhclient
 	</pre>
 
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

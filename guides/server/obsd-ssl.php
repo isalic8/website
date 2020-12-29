@@ -8,12 +8,20 @@
 	<title>SSl OpenBsd</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Let's encrypt with OpenBsd</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Let's encrypt with OpenBsd</h1>
 	<h3>Preface</h3>
 	<p>
 	Installing ssl certificates is a breeze with OpenBsd.

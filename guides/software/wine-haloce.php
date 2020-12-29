@@ -8,12 +8,20 @@
 	<title>Halo</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Halo CE installation</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Halo CE installation</h1>
 
 	<h3>Prerequisites</h3>
 	<p>A <strike><a target="_blank" href="https://thepiratebay.org/description.php?id=6876717">legitimate</a></strike></a> copy of Halo Combat evolved.</p>
@@ -40,6 +48,9 @@ WINEARCH=win32 ~/.wine/[...]/halo.exe
 	<p>
 	Explicitly set the <span class="emph">WINEARCH</span> variable before running it. Hopefully this fixes the problem
 	</p>
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

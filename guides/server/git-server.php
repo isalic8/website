@@ -8,12 +8,20 @@
 	<title>Selfhosted git server</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Selfhosted git server</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Selfhosted git server</h1>
 	<p>This is mostly copied from <a href="https://www.linux.com/training-tutorials/how-run-your-own-git-server/">this tutorial</a>. I added somethings they didn't touch on, such as adding the remote with a non-default ssh port and key.</p>
 	<h3>Dependencies</h3>
 	<pre>
@@ -73,6 +81,10 @@ $ git clone git@serv:/home/git/dwm.git
 $ git config alias.pushall '!git push origin master && git push remote-name master'
 $ git pushall
 	</pre>
+	</div>
+
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,12 +8,20 @@
 	<title>Bluetooth</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Bluetoothctl</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Bluetoothctl</h1>
 
 	<h3>Preface</h3>
 	<p>
@@ -46,6 +54,8 @@ Pairing successful
 [bluetooth]$ connect
 	</pre>
 	</div>
-	</p>
+	<div class="footer">
+			<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

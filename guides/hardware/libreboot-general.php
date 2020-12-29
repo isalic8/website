@@ -8,12 +8,20 @@
 	<title>Libreboot General</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>General notes</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>General notes</h1>
 	<h3>General</h3>
 	<p>
 	If full disk encryption keeps failing, it's likely because your version of libreboot doesn't support luks2.

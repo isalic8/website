@@ -11,8 +11,10 @@
 	<div class="main">
 		<div class="header">
 			<p>
+			<a href="index.php">
 			Unixfandom.com
 			<img src="files/pix/penguin.gif" alt="penguin_gif">
+			</a>
 			</p>
 		</div>
 

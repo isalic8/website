@@ -8,12 +8,20 @@
 	<title>Home</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-		<h2>Qemu-basics creating a virtualization work station</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+		<h1>Qemu-basics creating a virtualization work station</h1>
 		<h3>Preface</h3>
 		<p>
 		These are the basics of Qemu to get you on your feet.
@@ -110,5 +118,8 @@ qemu-system-x86_64	Architecture type of the system. One of many that qemu offers
 
 		<img src="../pix/hannahmontana.jpg" alt="Hannah Montana OS">
 	</div>	
+	<div class="footer">
+		<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

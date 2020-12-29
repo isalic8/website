@@ -8,12 +8,20 @@
 	<title>OnionV3 domain</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Creating an OnionV3 vanity address</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Creating an OnionV3 vanity address</h1>
 
 	<h3>Preface</h3>
 	<p>
@@ -52,6 +60,9 @@ hs[...]_secret_key
 	After that, all we need to do is copy the secret key to the hidden service directory on our server.
 	Make sure that the owner of the file is the tor user ("debian-tor" on debian machines). Tor will overwrite the file if the incorrect owner is set.
 	</p>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

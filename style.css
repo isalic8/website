@@ -3,6 +3,21 @@
 	src:  url(files/terminus.ttf);
 }
 
+:root { 
+	/*--nav-background: #F8F9F9;*/
+	/*--nav-text-color: #000;*/
+	/*--logo-text-color: #000;*/
+	/*--body-background: #F9FAFB;*/
+	/*--link-text-color: #1F7BB3;*/
+	/*--pre-background: #efefef;*/
+	/*--code-text-color: #b8bb26;*/
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	opacity: 1;
+}
+
 body {
 	background-color: #181818;
 	/*background-color: #6c6458;*/
@@ -14,6 +29,10 @@ body {
 	padding: 0 0 0 10px;
 	font-size: 1.5rem;
 	width: 200px;
+}
+
+.header a {
+	color: #cfcee4;
 }
 
 .header p img {
@@ -82,6 +101,15 @@ h1 img {
 	width: 20px;
 }
 
+pre {
+	/*background: var(--pre-background);*/
+	background: #3C3A3A;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 8px;
+	overflow: auto;
+	color: white;
+}
 
 nav ul {
 	padding-left: 0;

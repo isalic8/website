@@ -7,13 +7,21 @@
 	<title>NVME Root</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 <div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 <!--<small>5/26/20</small>-->
-<h2>Using NVME as os root</h2>
+<h1>Using NVME as os root</h1>
 <h3>Preface</h3>
 <p>
 I assume that you have an nvme drive with a formatted ext4 partition present.<br/>

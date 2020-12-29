@@ -8,12 +8,20 @@
 	<title>Grub</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Booting from grub</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Booting from grub</h1>
 	<p>We've all been there...</p>
 	<pre>
 	grub> ls
@@ -23,6 +31,9 @@
 	grub> initrd /boot/initrd.img-3.13.0-29-generic
 	grub> boot
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

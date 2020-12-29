@@ -8,12 +8,20 @@
 	<title>GPG GTK</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>GPG with GTK prompt</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>GPG with GTK prompt</h1>
 	<h3>Preface</h3>
 	<p>You may have experienced a problem where you want a graphical prompt to appear when decrypting files, but instead a tty prompt appears. Your gpg agent uses "pinentry" to display this prompt. All we need to do is tell gpg agent to use pinentry-gtk instead of pinentry-tty</p>
 
@@ -28,6 +36,9 @@ $ gpg-connect-agent reloadagent /bye
 	</pre>
 	<p>A graphical password prompt should now appear.</p>
 
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,12 +8,20 @@
 	<title>Mounting image files</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>How to mount image files</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>How to mount image files</h1>
 	<h3>Preface</h3>
 	<p>
 	Think of an image file as being it's own hard drive.
@@ -22,6 +30,9 @@
 	It's the same concept with image files aswell.
 	To mount them, we need to direct our system to the start of  
 </p>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

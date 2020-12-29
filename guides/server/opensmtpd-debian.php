@@ -8,13 +8,21 @@
 	<title>OpenSMTPD Debian</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
 	<!--06 July 2020-->
-	<h2>Compiling OpenSMTPD on Debian 10</h2>
+	<div class="header">
+		<p>
+		<a href="../../index.php">
+		Unixfandom.com
+		<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+		</a>
+		</p>
+	</div>
+
+	<nav>
+		<?php include '../navigation.php';?>
+	</nav>
+	<h1>Compiling OpenSMTPD on Debian 10</h1>
 
 	<h3>Installing dependencies and sources</h3>
 	<pre>
@@ -50,7 +58,8 @@ version: OpenSMTPD 6.7.0-portable                                               
 usage: smtpd [-dFhnv] [-D macro=value] [-f file] [-P system] [-T trace]
 	</pre>
 	</div>
-	</p>
-
+	<div class="footer">
+			<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

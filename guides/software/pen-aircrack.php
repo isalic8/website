@@ -8,12 +8,20 @@
 	<title>Aircrack</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Aircrack</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Aircrack</h1>
 	<p>
 	Aircrack is a package suite that can be used to analyze wifi networks and capture encrypted wireless handshakes.
 	This isn't a tutorial. I use it for reference. There are dozens of other guides online on how to use it. 
@@ -43,6 +51,9 @@ $ aireplay-ng wlan1mon --deauth 0 -a &lt;bssid&gt; -c &lt;client mac address&gt;
 	<pre>
 $ aircrack-ng handshake.cap -w wordlist.txt
 	</pre>
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,12 +8,20 @@
 	<title>Wine Controller</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Using controller in wine</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Using controller in wine</h1>
 	<h3>Preface</h3>
 	<p>
 	Here's how to hookup an xbox360 controller in wine.
@@ -28,6 +36,9 @@ yay -S joystick xboxdrv
 sudo xboxdrv --silent 
 	</pre>
 
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

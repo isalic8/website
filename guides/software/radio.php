@@ -8,12 +8,20 @@
 	<title>Radio</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Listening to radio stations in the terminal</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Listening to radio stations in the terminal</h1>
 	<h3>Preface</h3>
 	<p>
 	I thought this was pretty darned awesome.
@@ -42,6 +50,9 @@ Left+Right arrows to seek forward/backwards a little
 Up+Down to seek forward/backwards a lot
 	</pre>
 
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

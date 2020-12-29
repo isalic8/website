@@ -8,12 +8,20 @@
 	<title>Netcat</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Transfering files with netcat</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Transfering files with netcat</h1>
 	<h3>Preface</h3>
 	<p>MORE THINGS I CAN'T REMEMBER! 
 	Transfering unencrypted files through netcat:
@@ -36,6 +44,9 @@ nc -v -w 2 10.0.0.5 31337 > file.txt
 
 -l	Listen
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,11 +8,19 @@
 	<title>Guides</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 	<h2>Misc</h2>
 	<li><a href="misc-netcat.php">Transfering files with Netcat</a></li>
 	<li><a href="misc-ssh.php">Generating ssh keys</a></li>

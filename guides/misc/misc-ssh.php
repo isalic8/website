@@ -8,12 +8,20 @@
 	<title>SSH Keys</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Generating SSH Keys</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Generating SSH Keys</h1>
 	<p>....I just can't seem to remember....</p>
 	<pre>
 ssh-keygen -t rsa  [ -b &lt;bits&gt; ]
@@ -21,7 +29,8 @@ ssh-copy-id -i &lt;/path/to/idrsa.pub&gt; example@10.0.0.1
 	</pre>
 
 	</div>
-	</p>
-
+	<div class="footer">
+			<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

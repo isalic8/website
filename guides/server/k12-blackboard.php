@@ -8,12 +8,20 @@
 	<title>K12 Linux</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Playing K12 jnlp files (blackboard)</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Playing K12 jnlp files (blackboard)</h1>
 	<h3>Preface</h3>
 	<p>
 	This is only relevant if you attend K12 highschool online.
@@ -64,6 +72,9 @@ $ javaws class_connect.jnlp
 
 	<h3>Troubleshooting</h3>
 	<p>If you're running a window manager you might see that the class connect runs fine, but the window is a blank screen. The simplest fix I found was to use a DE such as lxde, mate, kde, etc. I'm using mate in the photo above.</p>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

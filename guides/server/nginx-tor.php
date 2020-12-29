@@ -8,12 +8,20 @@
 	<title>Nginx tor</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Setting up tor with nginx</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Setting up tor with nginx</h1>
 	<h3>Preface</h3>
 	<p>A few things to note: Tor sites don't require ssl. It has it's own means of encryption. We'll be configuring our nginx server to keep our clearnet site and tor site separate. Having the tor domain linked to the same nginx server as our clearnet site may cause problems when you're clearnet site tries to redirect it's users to the https protected site. We're keeping our eggs in different baskets.</p>
 
@@ -71,6 +79,9 @@ $ systemctl restart tor
 	<h3>Results</h3>
 	<img src="../pix/nginx-tor.png" alt="results image">
 	<small><em>Old photo using onionv2 address...</em></small>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

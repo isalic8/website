@@ -13,7 +13,7 @@
 	</header>
 
 	<div class="main">
-	<h2>Hardware</h2>
+	<h1>Hardware</h1>
 	<h3>PBP</h3>
 		<li>Booting</li>
 		<li><a href="pbpspi.php">Booting from NVME (spi flash method)</a><li>

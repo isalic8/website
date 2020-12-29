@@ -8,12 +8,20 @@
 	<title>DEPRECIATED</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Generating custom onion url</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Generating custom onion url</h1>
 	<h3>Preface</h3>
 	<p>
 	<span style="color: red;">DEPRECIATED: Onion version 2 addresses are being replaced by the end of 2021.
@@ -67,6 +75,9 @@ yXpwqUudg+AxEp11M06C7wJBAOyWspyOG1k/29bicS917GDo6MmwKtpfrE59vUjk
 -----END RSA PRIVATE KEY-----
 	</pre>
 	<p>I'll show you how you can use this custom domain with nginx <a href="nginx-tor.php">here</a></p>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

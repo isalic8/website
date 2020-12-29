@@ -8,12 +8,20 @@
 	<title>Anbox Arch Installation</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Installing Anbox in Arch Linux</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Installing Anbox in Arch Linux</h1>
 	<h3>Preface</h3>
 	<p>
 	<span style="color: red;">I realize after writing this guide that there's already a zen kernel compiled with support for anbox in the AUR. Derp.</span>
@@ -139,6 +147,9 @@ $ mount -t binder binder /dev/binderfs
 # Now let's install anbox
 $ yay -S anbox-git anbox-houdini
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

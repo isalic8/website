@@ -8,12 +8,20 @@
 	<title>Let's encrypt</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Letsencrypt</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Letsencrypt</h1>
 	<h3>Preface</h3>
 	<p>
 	Letsencrypt is a service/tool which allows you to generate free, trusted, ssl certificates.
@@ -43,6 +51,9 @@ certbot --nginx rollback
 /etc/letsencrypt/live/domain/fullchain.pem
 /etc/letsencrypt/live/domain/privkey.pem
 	</pre>
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

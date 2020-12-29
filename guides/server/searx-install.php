@@ -8,12 +8,20 @@
 	<title>Searx</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Searx Installation</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Searx Installation</h1>
 
 	<h3>Preface</h3>
 	<p>I'm doing this on a Debian 10 server. The guide assumes you have root privledges. I think ubuntu requires you add your user to the docker group (usermod -aG docker username)</p>
@@ -86,7 +94,8 @@ $ systemctl status docker-searx
 
 
 	</div>
-	</p>
-
+	<div class="footer">
+			<?php include '../footer.php';?>
+	</div>
 </body>
 </html>

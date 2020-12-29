@@ -8,12 +8,20 @@
 	<title>Aircrack RPI</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Installing Aircrack in RPI3</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Installing Aircrack in RPI3</h1>
 	<h3>Preface</h3>
 	<p>
 	I reference the <a target="_blank" href="https://www.aircrack-ng.org/doku.php?id=install_aircrack#installing_aircrack-ng_from_source">official aircrack installation guide</a>.
@@ -35,6 +43,9 @@ $ make
 $ make install
 $ ldconfig
 	</pre>
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

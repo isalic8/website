@@ -8,12 +8,20 @@
 	<title>Mail Server</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Configuring a Mail Server</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Configuring a Mail Server</h1>
 	<h3>Preface</h3>
 	<p>
 	It took a bunch of attempts, but I've finally figured it out. We'll setup an email server with dovecot and postfix. Along the way, we'll be setting up dns records to validate our server to send mail and configure it with ssl certificates.

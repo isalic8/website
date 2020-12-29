@@ -8,11 +8,19 @@
 	<title></title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 	<h2>Qemu SMB</h2>
 	<h3>Preface</h3>
 	<p>
@@ -46,6 +54,9 @@ $ mount -t cifs //10.0.2.4/qemu /path/to/mountpoint -o username=anonymous,passwo
 
 	<img src="../pix/qemu-smb.png" alt="qemu-smb.png">
 	<em>...messy home directory</em>
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

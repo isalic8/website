@@ -8,12 +8,20 @@
 	<title>Digispark</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>Digispark</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>Digispark</h1>
 	<h3>Preface</h3>
 	<p>
 	The digispark is a small and cheap Arduino that can be used as a keystroke injector.

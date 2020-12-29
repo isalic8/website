@@ -7,14 +7,21 @@
 	<title>Keyboard Updater</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
-
 <div class="main">
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
 <!--<small>5-27-20</small>-->
-<h2>Updating the Pinebook Pros keyboard</h2>
+<h1>Updating the Pinebook Pros keyboard</h1>
 
 <h3>Preface</h3>
 <p>This is a verbatim copy of the directions written on 

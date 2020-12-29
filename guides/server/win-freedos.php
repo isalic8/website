@@ -8,12 +8,20 @@
 	<title>FreeDOS Installation</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>FreeDOS installation</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>FreeDOS installation</h1>
 	<h3>Preface</h3>
 	<p>
 	Alright, this isn't an actual installation walkthrough.
@@ -42,6 +50,9 @@ $ qemu-system-x86_64 -enable-kvm -cpu host -m 600 -hda FD12FULL.vmdk -hdb <span 
 
 	<img src="../pix/win-freedosinstall.png" alt="freedos install.">
 
+	</div>
+	<div class="footer">
+			<?php include '../footer.php';?>
 	</div>
 </body>
 </html>

@@ -8,12 +8,20 @@
 	<title>MS Office 2016</title>
 </head>
 <body>
-	<header>
-		<?php include '../navigation1.php';?>
-	</header>
-
 	<div class="main">
-	<h2>MS Office 2016 in Wine</h2>
+		<div class="header">
+			<p>
+			<a href="../../index.php">
+			Unixfandom.com
+			<img src="../../files/pix/penguin.gif" alt="penguin_gif">
+			</a>
+			</p>
+		</div>
+
+		<nav>
+			<?php include '../navigation.php';?>
+		</nav>
+	<h1>MS Office 2016 in Wine</h1>
 	<h3>Preface</h3>
 	<p>
 	The installer is pain in the behind to complete. May this guide make your installation experience....tolerable.
@@ -36,6 +44,9 @@
 winetricks -q gdiplus msxml6 dotnet20 riched20
 	</pre>
 
+	</div>
+	<div class="footer">
+		<?php include '../footer.php';?>
 	</div>
 </body>
 </html>
