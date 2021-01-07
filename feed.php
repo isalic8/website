@@ -57,6 +57,14 @@
 			<li><a href="guides/software/pen-aircrack.php">Basic deauthentication with Aircrack</a></li>
 			<li>Untitled</li>
 			<li><a href="guides/software/radio.php">Listening to your radio stations in the terminal</a></li>
+			<li><a href="guides/software/w3m.php">The awesomeness of the W3M terminal web browser</a></li>
+			<li>Scripts (some mine; some not)</li>
+			<li><a href="guides/software/sh-compress.php">Compress archives</a></li>
+			<li><a href="guides/software/sh-extract.php">Extract archives</a></li>
+			<li><a href="guides/software/sh-mouse.php">Mouse accelleration changer</a></li>
+			<li><a href="guides/software/sh-dd.php">Somewhat useful dd wrapper</a></li>
+			<li><a href="guides/software/sh-sw.php">Portable swallow script</a></li>
+			<li><a href="guides/software/sh-torbrowser.php">Tor browser install script + firejail wrapper</a></li>
 		</div>
 		<div class="grid-item-border">
 		<h3>Hardware</h3>
@@ -78,7 +86,6 @@
 			<li><a href="guides/misc/misc-bluetooth.php">Bluetoothctl</a></li>
 			<li><a href="guides/misc/misc-grub.php">Booting from grub</a></li>
 			<li><a href="guides/misc/misc-gpg-graphical.php">GTK prompt for GPG</a></li>
-			<li><a href="guides/misc/misc-openvpn-lan">Openvpn: Allow hosts to see other vlan hosts</a></li>
 			<li><a href="guides/misc/misc-raspberrypi-nonet.php">RPI fix: Internet randomly not working with static ip</a></li>
 		</div>
 	</div>

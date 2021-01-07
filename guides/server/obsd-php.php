@@ -24,6 +24,8 @@
 	<h1>Let's encrypt with OpenBSD</h1>
 	<h3>Preface</h3>
 	<p>
+	<span style="color: red;">IGNORE THIS PAGE. PHP RUNS WILDLY SLOW ON HTTPD USING THESE STEPS</span><br><br>
+
 	This was more annoying to setup the first time than I thought it'd be.
 	I used these two resources:
 	</p>

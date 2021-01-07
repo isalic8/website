@@ -97,6 +97,10 @@ img {
 	width: 100%;
 }
 
+img.img-smaller{
+	width: 60%;
+}
+
 h1 img {
 	width: 20px;
 }
