@@ -91,8 +91,6 @@ $ systemctl status docker-searx
 	<br>
 	Logs are for google.
 	</p>
-
-
 	</div>
 	<div class="footer">
 			<?php include '../footer.php';?>
