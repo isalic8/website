@@ -80,7 +80,7 @@ dd if=/dev/zero of=/dev/BLKDEV bs=64k seek=192 conv=fsync &>/dev/null
 	</p>
 
 	<h3>Damaged thermal pad. Getting a replacement.</h3>
-	<p>Purchase yourself a 4mm thermal pad from Amazon and you'll be all set</p>
+	<p>Purchase yourself a 4mm thermal pad from Amazon and you'll be all set. Cut a 1 inch by 1 inch square.</p>
 
 	</div>
 	<div class="footer">
