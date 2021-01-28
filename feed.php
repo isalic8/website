@@ -53,8 +53,8 @@
 			<li>Qemu</li>
 			<li><a href="guides/software/qemu-basics.php">Basic tutorial</a></li>
 			<li><a href="guides/software/qemu-smb.php">Sharing files between host and guest</a></li>
-			<li>Pentest</li>
-			<li><a href="guides/software/pen-aircrack.php">Basic deauthentication with Aircrack</a></li>
+			<li>FFMPEG</li>
+			<li><a href="guides/software/ffmpeg-dummy.php">Creating a dummy webcam and output videos/images to it</a></li>
 			<li>Untitled</li>
 			<li><a href="guides/software/radio.php">Listening to your radio stations in the terminal</a></li>
 			<li><a href="guides/software/w3m.php">The awesomeness of the W3M terminal web browser</a></li>
