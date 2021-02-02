@@ -25,6 +25,9 @@
 	I'm addressing common problem with the pbp more than anything. Go down the list until you find something that's relevant to you.
 	</p>
 
+	<h3>Powerkey shuts off machine</h3>
+	<p>The powerkey is not in the most ideal locations. Edit /etc/systemd/logind.conf and change "HandlePowerKey=poweroff" to "HandlePowerKey=ignore"</p>
+
 	<h3>Can't boot at all after flashing EMMC</h3>
 	<p>
 	You could either use an emmc to usb adapter to reflash your EMMC (LAME).<br>
